@@ -1,20 +1,23 @@
 .topbar ul{
      list-style: none;
-     margin-top: 0px;
+     display: inline;
 }
 
 .topbar{
-     background-color: black;
+     background-color: navy;
 }
 
 .topbar a{
      text-decoration: none;
-     color: white;
+     color: gray;
+     font-size: 10px;
+     margin-left: 3px;
 }
+
 
 .topbar li{
      display: inline;
-     text-align: right;
+     text-align: center;
 }
 
 .bottombar ul{
@@ -23,9 +26,14 @@
 
 .bottombar li{
      display: inline;
-     border: 6px black solid;
-     background: black;
+     border: 6px navy solid;
+     background: navy;
      border-radius: 20%;
+}
+
+.bottombar li:hover{
+    background-color: orange;
+    border: 6px orange solid;
 }
 
 .bottombar a{
@@ -33,24 +41,55 @@
      color: white;
 }
 
+.bottombar img{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
 .logo h2{
      position: absolute;
-     top: 400px;
+     top: 330px;
+     font-size: 65px;
+     color: white
 }
 
 .logo h3{
      position: absolute;
-     top: 450px;
+     top: 430px;
+     font-size: 15px;
+     color: white;
 }
 
 .logo a{
      position: absolute;
-     top: 500px;
+     top: 470px;
      text-decoration: none;
+     border: 6px orange solid;
+     border-radius: 5px;
+     background-color: orange;
+     color: white;
 }
 
 .motto a{
      text-decoration: none;
+     border: 5px navy solid;
+     border-radius: 5px;
+     background-color: navy;
+     color: white;
+}
+
+.motto a:hover{
+    border: 6px orange solid;
+    background-color: orange;
+}
+
+.motto h2{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.motto p{
+    font-size: 10px;
 }
 
 .motto{
@@ -58,17 +97,31 @@
      margin-top: 40px;
 }
 
+.lower{
+    background-color: navy;
+    color: white;
+}
+
 .lower ul{
-     list-style: none;
+    display: inline;
+}
+
+.lower li{
+    line-height: 25px;
+    color: white;
 }
 
 .lower a{
-     display: inline;
-     text-decoration: none;
+    text-decoration: none;
+    border: 4px solid blue;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
 }
 
-.lower{
-     display: inline;
+.lower a:hover{
+    border: 6px orange solid;
+    background-color: orange;
 }
 
 
