@@ -1,0 +1,74 @@
+.topbar ul{
+     list-style: none;
+     margin-top: 0px;
+}
+
+.topbar{
+     background-color: black;
+}
+
+.topbar a{
+     text-decoration: none;
+     color: white;
+}
+
+.topbar li{
+     display: inline;
+     text-align: right;
+}
+
+.bottombar ul{
+     list-style: none;
+}
+
+.bottombar li{
+     display: inline;
+     border: 6px black solid;
+     background: black;
+     border-radius: 20%;
+}
+
+.bottombar a{
+     text-decoration: none;
+     color: white;
+}
+
+.logo h2{
+     position: absolute;
+     top: 400px;
+}
+
+.logo h3{
+     position: absolute;
+     top: 450px;
+}
+
+.logo a{
+     position: absolute;
+     top: 500px;
+     text-decoration: none;
+}
+
+.motto a{
+     text-decoration: none;
+}
+
+.motto{
+     margin-bottom: 40px;
+     margin-top: 40px;
+}
+
+.lower ul{
+     list-style: none;
+}
+
+.lower a{
+     display: inline;
+     text-decoration: none;
+}
+
+.lower{
+     display: inline;
+}
+
+
