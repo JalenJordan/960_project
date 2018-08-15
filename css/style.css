@@ -113,9 +113,11 @@
 .lower a{
     text-decoration: none;
     color: white;
+    position: relative;
+    top: 0px;
 }
 .lower a:hover{
-    color: white;
+    color: orange;
 }
 
 .lower img{
@@ -130,7 +132,8 @@
     background-color: #101a21;
     border-radius: 5px;
     text-decoration: none;
-    margin-top: -6px;
+    position: relative;
+    bottom: 5px;
 }
 
 .lower p:hover{
