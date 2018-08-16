@@ -1,3 +1,5 @@
+
+
 .topbar ul{
      list-style: none;
      display: inline;
@@ -39,6 +41,7 @@
 .bottombar a{
      text-decoration: none;
      color: white;
+     font-family: "Fjalla One",sans-serif;
 }
 
 .bottombar img{
@@ -52,12 +55,13 @@
 .logo a{
     position: absolute;
     top: 341px;
-    left: 100px;
+    left: 110px;
     text-decoration: none;
     border: 11px orange solid;
     border-radius: 5px;
     background-color: orange;
     color: white;
+    font-family: "Fjalla One", sans-serif;
 }
 
 .motto a{
@@ -66,6 +70,7 @@
     border-radius: 5px;
     background-color: #101a21;
     color: white;
+    font-family: "Fjalla One", sans-serif;
 }
 
 .motto a:hover{
@@ -75,11 +80,12 @@
 
 .motto h2{
     font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Fjalla One", sans-serif;
 }
 
 .motto p{
     font-size: 20px;
+    font-family: "Fjalla One",sans-serif;
 }
 
 .motto{
@@ -89,10 +95,7 @@
 
 .lower{
     background: #325373;
-    background: -moz-linear-gradient(top, #325373 0%, #101a21 100%);
-    background: -webkit-linear-gradient(top, #325373 0%,#101a21 100%);
     background: linear-gradient(to bottom, #325373 0%,#101a21 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#325373', endColorstr='#101a21',GradientType=0 );
     color: white;
 }
 .menu{
@@ -101,6 +104,7 @@
 .lower ul{
     list-style:url(listdot.jpg);
     padding: 0;
+    font-family: "Fjalla One",sans-serif;
 }
 
 .lower li{
@@ -108,6 +112,7 @@
     color: white;
     clear: both;
     padding: 0;
+    font-family: "Fjalla One",sans-serif;
 }
 
 .lower a{
@@ -115,6 +120,8 @@
     color: white;
     position: relative;
     top: 0px;
+    font-family: "Fjalla One", sans-serif;
+    
 }
 .lower a:hover{
     color: orange;
@@ -154,6 +161,7 @@
     list-style: none;
     padding: 0;
     clear: both;
+    font-family: "Fjalla One", sans-serif;
 }
 
 .bottom{
@@ -166,8 +174,6 @@
 
 .privacy{
     background: gray;
+    padding-bottom: 20px;
 }
 
-body{
-    background-color: whitesmoke;
-}
