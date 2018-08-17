@@ -170,6 +170,7 @@
     background: -webkit-linear-gradient(top, #325373 0%,#101a21 100%);
     background: linear-gradient(to bottom, #325373 0%,#101a21 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#325373', endColorstr='#101a21',GradientType=0 );
+    padding-bottom: 40px;
 }
 
 .privacy{
