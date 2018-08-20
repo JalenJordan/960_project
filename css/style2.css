@@ -1,0 +1,144 @@
+body{
+    background-color: whitesmoke;
+}
+.nav-bar ul{
+     list-style: none;
+     display: inline;
+}
+
+.nav-bar li{
+     display: inline;
+}
+
+.nav-bar a{
+     text-decoration: none;
+     color: white;
+     font-size: 10px;
+}
+
+.nav{
+     background: #121e29;
+     color: white;
+}
+.nav-bar2{
+    padding-bottom: 30px;
+}
+.nav-bar2 ul{
+     list-style: none;
+}
+
+.nav-bar2 li{
+     display: inline;
+     border: 6px solid navy;
+     border-radius: 5px;
+     background-color: navy;
+}
+
+.nav-bar2 a{
+     text-decoration: none;
+     color: white;
+}
+
+.nav-bar2 li:hover{
+     background-color: orange;
+     border:5px orange solid;
+}
+
+.row a{
+    text-decoration: none;
+    border: 5px #101a21 solid;
+    border-radius: 5px;
+    background-color: #101a21;
+    color: white;
+    font-family: "Fjalla One", sans-serif;
+}
+
+.row h2{
+     font-family: "Fjalla One",sans-serif;
+     font-size: 50px;
+}
+
+.row2 img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+.secrow2 img{
+    clear: both;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.lowersection2{
+    background: #325373;
+    background: linear-gradient(to bottom, #325373 0%,#101a21 100%);
+    color: white;
+    padding-top: 40px;
+}
+.row3{
+    background: #325373;
+    background: linear-gradient(to bottom, #325373 0%,#101a21 100%);
+    color: white;
+}
+.secrow32 h3{
+    font-size: 15px;
+}
+
+.secrow32 p{
+    color: gray;
+    font-size: 12px;
+}
+
+.secrow3 ul{
+    list-style: none;
+    padding: 0;
+}
+
+.secrow3 li{
+    line-height: 20px;
+    clear: both;
+    padding: 0;
+}
+
+.secrow3 a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 0px;
+    font-size: 12px;
+}
+
+.row2 h2{
+    font-size: 30px;
+    font-family: "Fjalla One", sans-serif;
+}
+
+.secrow3 img{
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 20px;
+}
+
+.lowersection{
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+}
+
+
+.privacypolicy{
+    clear: both;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #121e29;
+    color: white;
+}
+
+footer{
+    font-size: 10px;
+    color: gray;
+}
